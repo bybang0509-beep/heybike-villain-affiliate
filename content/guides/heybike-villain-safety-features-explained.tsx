@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import ArticleLayout from "@/components/ArticleLayout";
 import Breadcrumb from "@/components/Breadcrumb";
 import FAQ from "@/components/FAQ";
@@ -33,6 +34,16 @@ export default function SafetyFeaturesExplained() {
       <ArticleLayout title="Heybike Villain Safety Features Explained" description={metadata.description!} datePublished="2026-07-20" dateModified="2026-07-20" relatedArticles={related} faqItems={safetyFAQ}>
         <h1>Heybike Villain Safety Features Explained: What Parents Should Know</h1>
         <p>If you&apos;re considering the Heybike Villain for a teen rider — or you&apos;re an adult who wants to understand the safety systems before buying — this guide covers every safety feature, how they work, and what you should know about managing a 4,160W electric dirt bike responsibly.</p>
+
+        <div className="my-8">
+          <Image
+            src="/images/blog/heybike-villain-safety-features.jpeg"
+            alt="Heybike Villain safety features for teen riders"
+            width={800}
+            height={450}
+            className="rounded-xl"
+          />
+        </div>
 
         <h2>Safety Features Overview</h2>
         <p>The Heybike Villain includes several safety features that distinguish it from cheaper electric bikes. Here&apos;s what each one does and why it matters.</p>
@@ -91,6 +102,16 @@ export default function SafetyFeaturesExplained() {
           <li><strong>Knee and elbow pads:</strong> Especially important for beginners who are more likely to fall.</li>
           <li><strong>Chest/back protector:</strong> Recommended for aggressive off-road riding.</li>
         </ul>
+
+        <div className="my-8">
+          <Image
+            src="/images/blog/heybike-villain-teen-rider.jpeg"
+            alt="Teenager safely riding the Heybike Villain with proper gear"
+            width={800}
+            height={450}
+            className="rounded-xl"
+          />
+        </div>
 
         <h2>Setting Up for Safe Riding</h2>
         <h3>Pre-Ride Checklist</h3>

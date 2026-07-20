@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import ArticleLayout from "@/components/ArticleLayout";
 import Breadcrumb from "@/components/Breadcrumb";
 
@@ -24,6 +25,16 @@ export default function TopSpeedRangeTest() {
       <ArticleLayout title="Heybike Villain Top Speed & Real-World Range Test" description={metadata.description!} datePublished="2026-07-20" dateModified="2026-07-20" relatedArticles={related}>
         <h1>Heybike Villain Top Speed & Real-World Range Test</h1>
         <p>Two numbers define an electric dirt bike more than any others: how fast it goes and how far it goes. The Heybike Villain claims 45 mph top speed and up to 50 miles of range. We analyzed independent test data to tell you what you&apos;ll actually get.</p>
+
+        <div className="my-8">
+          <Image
+            src="/images/blog/heybike-villain-drift-riding.jpeg"
+            alt="Heybike Villain reaching top speed in drift riding test"
+            width={800}
+            height={450}
+            className="rounded-xl"
+          />
+        </div>
 
         <h2>Top Speed Test: 45 mph Claimed vs. Reality</h2>
         <p>Heybike claims a 45 mph top speed for the Villain. Independent speed testing — using GPS-based measurement on flat ground with a standard-weight rider in the highest power mode — has verified approximately 44.3 mph.</p>

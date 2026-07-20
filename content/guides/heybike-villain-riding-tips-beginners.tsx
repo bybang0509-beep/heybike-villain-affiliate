@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import ArticleLayout from "@/components/ArticleLayout";
 import Breadcrumb from "@/components/Breadcrumb";
 
@@ -24,6 +25,16 @@ export default function RidingTipsBeginners() {
       <ArticleLayout title="Heybike Villain Riding Tips for Beginners" description={metadata.description!} datePublished="2026-07-20" dateModified="2026-07-20" relatedArticles={related}>
         <h1>Heybike Villain Riding Tips for Beginners</h1>
         <p>The Heybike Villain is a powerful machine — 4,160W and 190 N·m of torque can be thrilling or overwhelming, depending on your experience. Whether you&apos;re a first-time electric dirt bike rider or a parent buying for a teen, these tips will help you start safely and build skills confidently.</p>
+
+        <div className="my-8">
+          <Image
+            src="/images/blog/heybike-villain-beginner-tips.jpeg"
+            alt="Beginner riding the Heybike Villain electric dirt bike"
+            width={800}
+            height={450}
+            className="rounded-xl"
+          />
+        </div>
 
         <h2>Before Your First Ride</h2>
         <h3>Lower the Power Mode</h3>
@@ -71,6 +82,16 @@ export default function RidingTipsBeginners() {
         <h3>Cornering</h3>
         <p>Approach turns at a moderate speed. Lean the bike into the turn while keeping your body relatively upright (or lean with the bike on loose surfaces). Look through the turn to where you want to go — your body naturally follows your eyes. Avoid braking mid-turn if possible; scrub speed before the turn entry.</p>
 
+        <div className="my-8">
+          <Image
+            src="/images/blog/heybike-villain-off-road-riding.jpeg"
+            alt="Heybike Villain off-road cornering technique"
+            width={800}
+            height={450}
+            className="rounded-xl"
+          />
+        </div>
+
         <h3>Hill Climbing</h3>
         <p>The Villain&apos;s 190 N·m torque makes hill climbing straightforward, but technique matters:</p>
         <ul>
@@ -111,6 +132,16 @@ export default function RidingTipsBeginners() {
           <li>Trails that permit electric dirt bikes (check local regulations)</li>
         </ul>
         <p>Check local laws before riding on public roads or trails. The Villain&apos;s street legality varies by jurisdiction.</p>
+
+        <div className="my-8">
+          <Image
+            src="/images/blog/heybike-villain-trail-riding.jpeg"
+            alt="Heybike Villain trail riding in nature"
+            width={800}
+            height={450}
+            className="rounded-xl"
+          />
+        </div>
 
         <h2>Building Skills Over Time</h2>
         <p>As you gain experience:</p>
