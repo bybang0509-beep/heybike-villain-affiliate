@@ -80,12 +80,12 @@ export const heybikeVillain: Product = {
   ],
   amazonUrl: "https://amzn.to/4fmopvo",
   images: {
-    hero: "/images/products/heybike-villain-hero.svg",
+    hero: "/images/products/heybike-villain-side.png",
     gallery: [
-      "/images/products/heybike-villain-side.svg",
-      "/images/products/heybike-villain-front.svg",
-      "/images/products/heybike-villain-motor.svg",
-      "/images/products/heybike-villain-display.svg",
+      "/images/products/heybike-villain-front.png",
+      "/images/products/heybike-villain-motor.png",
+      "/images/products/heybike-villain-display.png",
+      "/images/products/heybike-villain-detail.png",
     ],
   },
   competitors: [
