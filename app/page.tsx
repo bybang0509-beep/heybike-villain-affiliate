@@ -69,7 +69,7 @@ export default function Home() {
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20 lg:py-28 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <Image
-            src="/images/lifestyle/heybike-hero-banner.jpg"
+            src="/images/hero/heybike-villain-hero.jpg"
             alt="Heybike Villain electric dirt bike in action"
             fill
             className="object-cover"
