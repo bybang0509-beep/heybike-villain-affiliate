@@ -1,0 +1,52 @@
+我要建一个电动摩托车网站，这个是我的产品信息https://sports.heybike.com/products/heybike-villain，请根据我的产品，这是我的亚马逊联盟链接：https://amzn.to/4fmopvo，建立一个heybike villain 的网站，网站的只要关键词是heybike villain ，联系方式Email: support@heybikevillain.shop
+网站导航栏结构：
+LOGO
+
+Review
+Specifications
+Features
+Performance
+Comparison
+Guides（这里需要链接博客文章，需要写几篇关于heybike villain的测评文章，并且做好网站内链）
+Deals（需要做一个单独的优惠界面，点击后直接跳转到亚马逊，跳转链接）
+FAQ
+
+Buy Now（按钮）
+首页的结构：
+Header
+│
+├── Hero
+│
+├── Quick Verdict（编辑评分）
+│
+├── Why You Can Trust Us（为什么相信我们的评测）
+│
+├── Key Specifications（核心参数）
+│
+├── Key Features（核心卖点）
+│
+├── Performance Review（性能测试）
+│
+├── Ride Experience（真实骑行体验）
+│
+├── Pros & Cons（优缺点分析）
+│
+├── Gallery（真实的图片）
+│
+├── Comparison（产品对比）
+│
+├── FAQs（常见问题）
+│
+├── Related Articles（博客要写10篇）
+│
+│
+├── Buy Now（购买入口）
+│
+└── Footer
+    │
+    ├── Affiliate Disclosure（联盟声明）
+    ├── Privacy Policy（隐私政策）
+    ├── Terms & Conditions（服务条款）
+    ├── About Us
+    ├── Contact
+    └── Copyright
