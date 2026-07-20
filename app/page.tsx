@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { heybikeVillain, faqData } from "@/data/products";
 import CTAButton from "@/components/CTAButton";
 import Rating from "@/components/Rating";
@@ -65,8 +66,17 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero */}
-      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20 lg:py-28">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20 lg:py-28 overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <Image
+            src="/images/lifestyle/heybike-hero-banner.jpg"
+            alt="Heybike Villain electric dirt bike in action"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-yellow-300 font-semibold mb-3">
               Editor&apos;s Score: {p.rating.overall}/10
@@ -274,6 +284,40 @@ export default function Home() {
             <Link href="/guides" className="inline-flex items-center px-6 py-3 bg-gray-900 text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors">
               View All Guides
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Lifestyle Gallery */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-center mb-4">Ride the Heybike Villain</h2>
+          <p className="text-gray-500 text-center mb-10 max-w-2xl mx-auto">Experience the thrill of electric dirt biking. From trail riding to weekend adventures, the Villain is built for riders who want performance and fun.</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="relative aspect-[4/3] rounded-xl overflow-hidden group">
+              <Image
+                src="/images/lifestyle/heybike-lifestyle-2.jpg"
+                alt="Rider enjoying the Heybike Villain on trails"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="relative aspect-[4/3] rounded-xl overflow-hidden group">
+              <Image
+                src="/images/lifestyle/heybike-lifestyle-3.jpg"
+                alt="Heybike Villain electric dirt bike adventure"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="relative aspect-[4/3] rounded-xl overflow-hidden group">
+              <Image
+                src="/images/lifestyle/heybike-rider-1.jpg"
+                alt="Heybike Villain rider enjoying the outdoors"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
           </div>
         </div>
       </section>
