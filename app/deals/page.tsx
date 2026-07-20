@@ -68,12 +68,13 @@ export default function DealsPage() {
         <div className="mt-10">
           <h2 className="text-xl font-bold mb-6">Heybike Villain Accessories</h2>
           <Link href="/go/buy-now" className="block group">
-            <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-gray-100">
+            <div className="relative w-full rounded-xl overflow-hidden bg-gray-100">
               <Image
                 src="/images/products/vilian-accessories.png"
                 alt="Heybike Villain accessories and add-ons available on Amazon"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                width={1200}
+                height={675}
+                className="w-full h-auto group-hover:scale-105 transition-transform duration-500"
                 priority
               />
             </div>
