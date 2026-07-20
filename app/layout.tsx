@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   description:
     "In-depth Heybike Villain review covering top speed, real-world range, torque, and pricing. See if this $1,299 electric dirt bike is worth it.",
   metadataBase: new URL("https://heybikevillain.shop"),
+  icons: {
+    icon: "/images/icons/favicon.jpg",
+    shortcut: "/images/icons/favicon.jpg",
+    apple: "/images/icons/favicon.jpg",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
