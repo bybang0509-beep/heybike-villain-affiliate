@@ -15,6 +15,18 @@ export default function DealsPage() {
   return (
     <div className="py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Hero Image */}
+        <div className="relative w-full rounded-xl overflow-hidden mb-10">
+          <Image
+            src="/images/lifestyle/heybike-villain-father-giving-gift.jpeg"
+            alt="Father giving Heybike Villain as gift to son - perfect father-son bonding"
+            width={1200}
+            height={800}
+            className="w-full h-auto"
+            priority
+          />
+        </div>
+
         <h1 className="text-3xl font-bold mb-2">Heybike Villain Deals</h1>
         <p className="text-gray-600 mb-10">
           Current pricing and deal status for the Heybike Villain electric dirt
