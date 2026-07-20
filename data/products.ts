@@ -86,6 +86,11 @@ export const heybikeVillain: Product = {
       "/images/products/heybike-villain-motor.png",
       "/images/products/heybike-villain-display.png",
       "/images/products/heybike-villain-detail.png",
+      "/images/products/vilian-detail-1.png",
+      "/images/products/vilian-detail-2.png",
+      "/images/products/vilian-detail-3.png",
+      "/images/products/vilian-feature-1.png",
+      "/images/products/vilian-feature-2.png",
     ],
   },
   competitors: [

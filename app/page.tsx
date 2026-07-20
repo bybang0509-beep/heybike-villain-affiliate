@@ -140,6 +140,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Product Gallery */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-center mb-4">Heybike Villain Gallery</h2>
+          <p className="text-gray-500 text-center mb-10 max-w-2xl mx-auto">Explore the Heybike Villain from every angle. See the details that make this electric dirt bike stand out.</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {p.images.gallery.slice(0, 8).map((img, index) => (
+              <div key={index} className="relative aspect-square rounded-xl overflow-hidden group bg-white">
+                <Image
+                  src={img}
+                  alt={`Heybike Villain ${index + 1}`}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <CTAButton label="Buy on Amazon" showDisclosure />
+          </div>
+        </div>
+      </section>
+
       {/* Specifications */}
       <section id="specifications" className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
