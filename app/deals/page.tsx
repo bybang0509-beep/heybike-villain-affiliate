@@ -64,6 +64,28 @@ export default function DealsPage() {
           </ul>
         </div>
 
+        {/* Accessories Banner */}
+        <div className="mt-10">
+          <h2 className="text-xl font-bold mb-6">Heybike Villain Accessories</h2>
+          <Link href="/go/buy-now" className="block group">
+            <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden bg-gray-100">
+              <Image
+                src="/images/products/vilian-accessories.png"
+                alt="Heybike Villain accessories and add-ons available on Amazon"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500"
+                priority
+              />
+            </div>
+            <p className="mt-3 text-center text-sm text-gray-600">
+              Click the image above to view accessories on Amazon →
+            </p>
+          </Link>
+          <p className="mt-2 text-xs text-gray-500 text-center">
+            As an Amazon Associate, this site earns from qualifying purchases.
+          </p>
+        </div>
+
         {/* Product Highlights */}
         <div className="mt-10">
           <h2 className="text-xl font-bold mb-6">Product Highlights</h2>
