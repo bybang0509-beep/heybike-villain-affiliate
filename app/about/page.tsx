@@ -37,8 +37,8 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-[4/3] rounded-xl overflow-hidden">
             <Image
-              src="/images/lifestyle/heybike-community.jpg"
-              alt="Heybike community of riders"
+              src="/images/blog/heybike-villain-about-us.png"
+              alt="About HeybikeVillain.shop - Independent Heybike Villain review site"
               fill
               className="object-cover"
             />
