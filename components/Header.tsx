@@ -66,7 +66,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex-shrink-0" aria-label="Heybike Villain Review">
             <span className="text-xl font-bold text-gray-900">
-              Heybike<span className="text-amber-500">Villain</span>
+              Heybike<span className="text-yellow-400">Villain</span>
             </span>
           </Link>
 
@@ -75,7 +75,7 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-amber-600 transition-colors"
+                className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-yellow-500 transition-colors"
               >
                 {link.label}
               </Link>
@@ -85,7 +85,7 @@ export default function Header() {
               <button
                 onClick={() => setGuidesOpen(!guidesOpen)}
                 onBlur={() => setTimeout(() => setGuidesOpen(false), 150)}
-                className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-amber-600 transition-colors"
+                className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-700 hover:text-yellow-500 transition-colors"
               >
                 Guides <ChevronDown className="w-4 h-4" />
               </button>
@@ -95,14 +95,14 @@ export default function Header() {
                     <Link
                       key={link.href}
                       href={link.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-700"
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-yellow-50 hover:text-yellow-600"
                     >
                       {link.label}
                     </Link>
                   ))}
                   <Link
                     href="/guides"
-                    className="block px-4 py-2 text-sm font-medium text-amber-600 hover:bg-amber-50"
+                    className="block px-4 py-2 text-sm font-medium text-yellow-500 hover:bg-yellow-50"
                   >
                     View All Guides →
                   </Link>
@@ -112,7 +112,7 @@ export default function Header() {
 
             <Link
               href="/deals"
-              className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-amber-600 transition-colors"
+              className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-yellow-500 transition-colors"
             >
               Deals
             </Link>
@@ -121,7 +121,7 @@ export default function Header() {
           <div className="hidden lg:block">
             <a
               href="/go/buy-now"
-              className="inline-flex items-center px-5 py-2.5 bg-amber-500 text-white font-semibold rounded-lg hover:bg-amber-600 transition-colors shadow-sm"
+              className="inline-flex items-center px-5 py-2.5 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-500 transition-colors shadow-sm"
             >
               Buy Now
             </a>
@@ -144,7 +144,7 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-amber-600"
+                  className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-yellow-500"
                 >
                   {link.label}
                 </Link>
@@ -152,20 +152,20 @@ export default function Header() {
               <Link
                 href="/guides"
                 onClick={() => setMobileOpen(false)}
-                className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-amber-600"
+                className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-yellow-500"
               >
                 Guides
               </Link>
               <Link
                 href="/deals"
                 onClick={() => setMobileOpen(false)}
-                className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-amber-600"
+                className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-yellow-500"
               >
                 Deals
               </Link>
               <a
                 href="/go/buy-now"
-                className="mx-3 mt-2 text-center px-5 py-2.5 bg-amber-500 text-white font-semibold rounded-lg hover:bg-amber-600 transition-colors"
+                className="mx-3 mt-2 text-center px-5 py-2.5 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-500 transition-colors"
               >
                 Buy Now
               </a>

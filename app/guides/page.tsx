@@ -83,10 +83,10 @@ export default function GuidesPage() {
             <Link
               key={guide.slug}
               href={`/guides/${guide.slug}`}
-              className="block bg-white rounded-xl p-6 border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all"
+              className="block bg-white rounded-xl p-6 border border-gray-200 hover:border-yellow-300 hover:shadow-md transition-all"
             >
               <div className="flex items-start gap-4">
-                <span className="flex-shrink-0 w-8 h-8 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center text-sm font-bold">
+                <span className="flex-shrink-0 w-8 h-8 bg-yellow-100 text-yellow-700 rounded-full flex items-center justify-center text-sm font-bold">
                   {i + 1}
                 </span>
                 <div>
@@ -94,7 +94,7 @@ export default function GuidesPage() {
                     {guide.title}
                   </h2>
                   <p className="text-sm text-gray-500">{guide.desc}</p>
-                  <span className="mt-2 inline-block text-xs text-amber-600 font-medium">
+                  <span className="mt-2 inline-block text-xs text-yellow-500 font-medium">
                     Read article →
                   </span>
                 </div>

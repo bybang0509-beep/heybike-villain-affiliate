@@ -44,7 +44,7 @@ export default function ComparisonTable({
           </tr>
         </thead>
         <tbody>
-          <tr className="bg-amber-50 border-t border-amber-100">
+          <tr className="bg-yellow-50 border-t border-yellow-100">
             <td className="px-4 py-3 text-sm font-semibold text-gray-900">
               {productName}
             </td>
@@ -52,7 +52,7 @@ export default function ComparisonTable({
             <td className="px-4 py-3 text-sm text-gray-700">{productTorque}</td>
             <td className="px-4 py-3 text-sm text-gray-700">{productTopSpeed}</td>
             <td className="px-4 py-3 text-sm text-gray-700">{productRange}</td>
-            <td className="px-4 py-3 text-sm font-semibold text-amber-700">
+            <td className="px-4 py-3 text-sm font-semibold text-yellow-600">
               {productPrice}
             </td>
           </tr>

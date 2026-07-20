@@ -25,7 +25,7 @@ export default function DealsPage() {
             <p className="text-sm text-gray-500 line-through">
               MSRP: ${product.price.msrp.toLocaleString()}
             </p>
-            <p className="text-4xl font-bold text-amber-600 mt-1">
+            <p className="text-4xl font-bold text-yellow-500 mt-1">
               ${product.price.current.toLocaleString()}
             </p>
             <p className="text-sm text-green-600 font-medium mt-1">

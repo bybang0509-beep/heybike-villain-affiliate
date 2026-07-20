@@ -15,7 +15,7 @@ export default function ContactPage() {
           </p>
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
             <p className="text-gray-900 font-medium mb-1">Email</p>
-            <p className="text-amber-600">support@heybikevillain.shop</p>
+            <p className="text-yellow-500">support@heybikevillain.shop</p>
           </div>
           <p className="text-gray-500 text-sm mt-6">
             We typically respond within 48 hours. Please note that we are an

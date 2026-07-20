@@ -110,8 +110,8 @@ export default function VillainVsWindoneRS5() {
 
         <div className="not-prose my-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-amber-50 rounded-xl p-5 border border-amber-200">
-              <h3 className="font-semibold text-amber-800 mb-2">
+            <div className="bg-yellow-50 rounded-xl p-5 border border-yellow-200">
+              <h3 className="font-semibold text-yellow-700 mb-2">
                 Overall Winner: Heybike Villain
               </h3>
               <p className="text-sm text-gray-600">
@@ -284,7 +284,7 @@ export default function VillainVsWindoneRS5() {
                 <th className="px-4 py-3 text-left text-sm font-semibold text-gray-900">
                   Feature
                 </th>
-                <th className="px-4 py-3 text-center text-sm font-semibold text-amber-700">
+                <th className="px-4 py-3 text-center text-sm font-semibold text-yellow-600">
                   Villain
                 </th>
                 <th className="px-4 py-3 text-center text-sm font-semibold text-gray-900">

@@ -16,7 +16,7 @@ export default function FAQ({ items, compact = false }: FAQProps) {
           key={faq.question}
           className="group bg-gray-50 rounded-xl border border-gray-200"
         >
-          <summary className="flex items-center justify-between px-6 py-4 cursor-pointer text-sm font-medium text-gray-900 hover:text-amber-600">
+          <summary className="flex items-center justify-between px-6 py-4 cursor-pointer text-sm font-medium text-gray-900 hover:text-yellow-500">
             {faq.question}
             <span className="ml-2 text-gray-400 group-open:rotate-180 transition-transform">
               ▼

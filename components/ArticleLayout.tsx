@@ -71,7 +71,7 @@ export default function ArticleLayout({
       <article className="py-12 lg:py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mb-8">
-            <p className="text-xs text-amber-800 bg-amber-50 inline-block px-3 py-1 rounded-full mb-4">
+            <p className="text-xs text-yellow-700 bg-yellow-50 inline-block px-3 py-1 rounded-full mb-4">
               As an Amazon Associate, this site earns from qualifying purchases.{" "}
               <Link href="/affiliate-disclosure" className="underline">
                 Learn more
@@ -82,7 +82,7 @@ export default function ArticleLayout({
             </p>
           </div>
 
-          <div className="prose prose-gray max-w-none prose-headings:scroll-mt-20 prose-a:text-amber-600 prose-a:no-underline hover:prose-a:underline prose-img:rounded-xl">
+          <div className="prose prose-gray max-w-none prose-headings:scroll-mt-20 prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline prose-img:rounded-xl">
             {children}
           </div>
 
@@ -98,13 +98,13 @@ export default function ArticleLayout({
                   <Link
                     key={article.href}
                     href={article.href}
-                    className="block p-4 bg-gray-50 rounded-xl border border-gray-200 hover:border-amber-300 hover:shadow-sm transition-all"
+                    className="block p-4 bg-gray-50 rounded-xl border border-gray-200 hover:border-yellow-300 hover:shadow-sm transition-all"
                   >
                     <h3 className="text-sm font-semibold text-gray-900 mb-1">
                       {article.title}
                     </h3>
                     <p className="text-xs text-gray-500">{article.description}</p>
-                    <span className="mt-2 inline-block text-xs font-medium text-amber-600">
+                    <span className="mt-2 inline-block text-xs font-medium text-yellow-500">
                       Read more →
                     </span>
                   </Link>

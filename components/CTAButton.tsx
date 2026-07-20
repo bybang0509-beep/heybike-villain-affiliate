@@ -22,9 +22,9 @@ export default function CTAButton({
     "inline-flex items-center justify-center font-semibold rounded-lg transition-colors shadow-sm";
 
   const variantStyles = {
-    primary: "bg-amber-500 text-white hover:bg-amber-600",
+    primary: "bg-yellow-400 text-black hover:bg-yellow-500",
     outline:
-      "border-2 border-amber-500 text-amber-600 hover:bg-amber-50 bg-transparent",
+      "border-2 border-yellow-400 text-yellow-500 hover:bg-yellow-50 bg-transparent",
   };
 
   const sizeStyles = {

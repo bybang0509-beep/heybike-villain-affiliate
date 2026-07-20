@@ -68,7 +68,7 @@ export default function Home() {
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-amber-400 font-semibold mb-3">
+            <p className="text-yellow-300 font-semibold mb-3">
               Editor&apos;s Score: {p.rating.overall}/10
             </p>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6">
@@ -83,9 +83,9 @@ export default function Home() {
       </section>
 
       {/* Affiliate Disclosure */}
-      <div className="bg-amber-50 border-b border-amber-100">
+      <div className="bg-yellow-50 border-b border-yellow-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
-          <p className="text-xs text-amber-800">
+          <p className="text-xs text-yellow-700">
             As an Amazon Associate, this site earns from qualifying purchases.{" "}
             <Link href="/affiliate-disclosure" className="underline">Learn more</Link>.
           </p>
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-50 rounded-xl p-6">
               <div className="flex items-end gap-2 mb-4">
-                <span className="text-5xl font-bold text-amber-500">{p.rating.overall}</span>
+                <span className="text-5xl font-bold text-yellow-400">{p.rating.overall}</span>
                 <span className="text-lg text-gray-400 mb-1">/10</span>
               </div>
               <p className="text-gray-600 font-medium mb-6">Overall Score</p>
@@ -186,7 +186,7 @@ export default function Home() {
                 <div className="space-y-2 text-sm">
                   <p><span className="text-gray-500">Claim:</span> {test.claim}</p>
                   <p><span className="text-gray-500">Result:</span> {test.result}</p>
-                  <p className="text-amber-700 font-medium pt-1">{test.verdict}</p>
+                  <p className="text-yellow-600 font-medium pt-1">{test.verdict}</p>
                 </div>
               </div>
             ))}
@@ -223,7 +223,7 @@ export default function Home() {
             The Villain leads on power density within its ~$1,300 price tier. Higher-priced models offer more speed and range.
           </p>
           <div className="mt-6">
-            <Link href="/guides/heybike-villain-vs-windone-rs5" className="text-amber-600 font-medium hover:underline text-sm">
+            <Link href="/guides/heybike-villain-vs-windone-rs5" className="text-yellow-500 font-medium hover:underline text-sm">
               Read our full Villain vs Windone RS5 comparison →
             </Link>
           </div>
@@ -239,7 +239,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-8">Frequently Asked Questions</h2>
           <FAQ items={faqData.slice(0, 8)} />
           <div className="mt-6 text-center">
-            <Link href="/faq" className="text-amber-600 font-medium hover:underline text-sm">
+            <Link href="/faq" className="text-yellow-500 font-medium hover:underline text-sm">
               View all frequently asked questions →
             </Link>
           </div>
@@ -262,11 +262,11 @@ export default function Home() {
               <Link
                 key={article.slug}
                 href={`/guides/${article.slug}`}
-                className="bg-white rounded-xl p-6 border border-gray-200 hover:border-amber-300 hover:shadow-md transition-all"
+                className="bg-white rounded-xl p-6 border border-gray-200 hover:border-yellow-300 hover:shadow-md transition-all"
               >
                 <h3 className="font-semibold text-gray-900 mb-2 text-sm">{article.title}</h3>
                 <p className="text-xs text-gray-500">{article.desc}</p>
-                <span className="mt-3 inline-block text-xs font-medium text-amber-600">Read article →</span>
+                <span className="mt-3 inline-block text-xs font-medium text-yellow-500">Read article →</span>
               </Link>
             ))}
           </div>
@@ -279,14 +279,14 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-16 bg-gradient-to-br from-amber-500 to-amber-600 text-white">
+      <section className="py-16 bg-gradient-to-br from-yellow-400 to-yellow-500 text-black">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Ready to Ride the Heybike Villain?</h2>
-          <p className="text-amber-100 mb-8">Check the latest price and availability on Amazon.</p>
-          <a href="/go/buy-now" className="inline-flex items-center px-8 py-4 bg-white text-amber-600 font-bold rounded-lg hover:bg-gray-100 transition-colors shadow-lg text-lg">
+          <p className="text-yellow-800 mb-8">Check the latest price and availability on Amazon.</p>
+          <a href="/go/buy-now" className="inline-flex items-center px-8 py-4 bg-black text-yellow-400 font-bold rounded-lg hover:bg-gray-800 transition-colors shadow-lg text-lg">
             Check Price on Amazon →
           </a>
-          <p className="mt-4 text-xs text-amber-200">
+          <p className="mt-4 text-xs text-yellow-900">
             As an Amazon Associate, this site earns from qualifying purchases.
           </p>
         </div>

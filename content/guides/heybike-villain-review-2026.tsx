@@ -85,7 +85,7 @@ export default function HeybikeVillainReview2026() {
         <div className="not-prose my-6">
           <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
             <div className="flex items-center gap-4 mb-4">
-              <span className="text-4xl font-bold text-amber-500">
+              <span className="text-4xl font-bold text-yellow-400">
                 {p.rating.overall}
               </span>
               <span className="text-gray-400 text-lg">/10</span>

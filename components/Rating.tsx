@@ -25,7 +25,7 @@ export default function Rating({
 
   return (
     <div className="inline-flex items-center gap-2">
-      <span className={`font-bold text-amber-500 ${textSize[size]}`}>
+      <span className={`font-bold text-yellow-400 ${textSize[size]}`}>
         {score}
       </span>
       <span className={`text-gray-400 ${size === "lg" ? "text-lg" : "text-xs"}`}>
@@ -33,7 +33,7 @@ export default function Rating({
       </span>
       <div className={`${sizeStyles[size]} bg-gray-200 rounded-full overflow-hidden`}>
         <div
-          className="h-full bg-amber-500 rounded-full transition-all"
+          className="h-full bg-yellow-400 rounded-full transition-all"
           style={{ width: `${percentage}%` }}
         />
       </div>
