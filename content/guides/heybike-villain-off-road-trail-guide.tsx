@@ -28,7 +28,7 @@ export default function OffRoadTrailGuide() {
 
         <div className="my-8">
           <Image
-            src="/images/lifestyle/heybike-villain-off-road-trail.jpeg"
+            src="/images/blog/heybike-villain-trail-riding.jpeg"
             alt="Heybike Villain electric dirt bike on an off-road trail through forest terrain"
             width={800}
             height={450}
