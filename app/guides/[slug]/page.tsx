@@ -11,6 +11,11 @@ import HeybikeVillainRidingTipsBeginners from "@/content/guides/heybike-villain-
 import HeybikeVillainMaintenanceGuide from "@/content/guides/heybike-villain-maintenance-guide";
 import HeybikeVillainAccessoriesMods from "@/content/guides/heybike-villain-accessories-mods";
 import HeybikeVillainSafetyFeaturesExplained from "@/content/guides/heybike-villain-safety-features-explained";
+import HeybikeVillainVsYozmaIn10Pro from "@/content/guides/heybike-villain-vs-yozma-in10-pro";
+import HeybikeVillainCommuterGuide from "@/content/guides/heybike-villain-commuter-guide";
+import HeybikeVillainOffRoadTrailGuide from "@/content/guides/heybike-villain-off-road-trail-guide";
+import HeybikeVillainBuyingGuide2026 from "@/content/guides/heybike-villain-buying-guide-2026";
+import HeybikeVillainColdWeatherGuide from "@/content/guides/heybike-villain-cold-weather-guide";
 
 const articles: Record<
   string,
@@ -73,6 +78,36 @@ const articles: Record<
     description:
       "A parent-focused guide to the Heybike Villain's safety features.",
     component: HeybikeVillainSafetyFeaturesExplained,
+  },
+  "heybike-villain-vs-yozma-in10-pro": {
+    title: "Heybike Villain vs Yozma IN10 Pro: Which Electric Dirt Bike Is Better?",
+    description:
+      "Side-by-side comparison of the Heybike Villain and Yozma IN10 Pro — motor, speed, range, price, and real-world performance.",
+    component: HeybikeVillainVsYozmaIn10Pro,
+  },
+  "heybike-villain-commuter-guide": {
+    title: "Heybike Villain Commuter Guide: Can You Use It for Daily Commutes?",
+    description:
+      "Everything you need to know about using the Heybike Villain for daily commuting — legal tips, range planning, and safety gear.",
+    component: HeybikeVillainCommuterGuide,
+  },
+  "heybike-villain-off-road-trail-guide": {
+    title: "Heybike Villain Off-Road & Trail Riding Guide",
+    description:
+      "Maximize your Heybike Villain on dirt, gravel, mud, and hills — terrain tips, suspension setup, and riding techniques.",
+    component: HeybikeVillainOffRoadTrailGuide,
+  },
+  "heybike-villain-buying-guide-2026": {
+    title: "Heybike Villain Buying Guide 2026: Everything You Need to Know",
+    description:
+      "Complete buying guide covering price, specs, real-world performance, honest limitations, and whether the Heybike Villain is right for you.",
+    component: HeybikeVillainBuyingGuide2026,
+  },
+  "heybike-villain-cold-weather-guide": {
+    title: "Heybike Villain Cold Weather & Winter Riding Guide",
+    description:
+      "How to ride and care for your Heybike Villain in cold weather — battery tips, tire adjustments, and winter storage advice.",
+    component: HeybikeVillainColdWeatherGuide,
   },
 };
 
