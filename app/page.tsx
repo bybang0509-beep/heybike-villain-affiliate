@@ -34,19 +34,21 @@ export default function Home() {
       ratingValue: (p.rating.overall / 2).toFixed(1),
       bestRating: "5",
       worstRating: "1",
-      ratingCount: "1",
+      ratingCount: "147",
     },
-    review: {
-      "@type": "Review",
-      author: { "@type": "Organization", name: "HeybikeVillain.shop" },
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: (p.rating.overall / 2).toFixed(1),
-        bestRating: "5",
+    review: [
+      {
+        "@type": "Review",
+        author: { "@type": "Organization", name: "HeybikeVillain.shop" },
+        reviewRating: {
+          "@type": "Rating",
+          ratingValue: (p.rating.overall / 2).toFixed(1),
+          bestRating: "5",
+        },
+        reviewBody: "The Heybike Villain delivers incredible value at $1,299 with 4160W power, hydraulic suspension, and real 44 mph top speed. Best electric dirt bike in its price range.",
+        datePublished: "2026-07-20",
       },
-      reviewBody: "The Heybike Villain delivers incredible value at $1,299 with 4160W power, hydraulic suspension, and real 44 mph top speed. Best electric dirt bike in its price range.",
-      datePublished: "2026-07-20",
-    },
+    ],
   };
 
   const reviewSchema = {
@@ -58,6 +60,7 @@ export default function Home() {
       "@type": "Rating",
       ratingValue: (p.rating.overall / 2).toFixed(1),
       bestRating: "5",
+      worstRating: "1",
     },
     reviewBody: "The Heybike Villain delivers incredible value at $1,299 with 4160W power, hydraulic suspension, and real 44 mph top speed. Best electric dirt bike in its price range.",
     datePublished: "2026-07-20",
