@@ -116,6 +116,13 @@ export default function Header() {
             >
               Deals
             </Link>
+
+            <Link
+              href="/blog"
+              className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-yellow-500 transition-colors"
+            >
+              Blog
+            </Link>
           </nav>
 
           <div className="hidden lg:block">
@@ -162,6 +169,13 @@ export default function Header() {
                 className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-yellow-500"
               >
                 Deals
+              </Link>
+              <Link
+                href="/blog"
+                onClick={() => setMobileOpen(false)}
+                className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-yellow-500"
+              >
+                Blog
               </Link>
               <a
                 href="/go/buy-now"
